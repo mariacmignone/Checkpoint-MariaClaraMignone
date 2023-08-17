@@ -1,0 +1,41 @@
+    1  git --version
+    2  git init
+    3  git config user.name "MariaClaraMignone"
+    4  git config user.email "mariacmignone@gmail.com"
+    5  git clone https://github.com/mariacmignone/Checkpoint-MariaCMignone.git
+    6  mkdir Checkpoint-MariaCMignone
+    7  cd Checkpoint-MariaCMignone
+    8  git init
+    9  git add main.js index.html
+   10  git commit 01 de MariaClaraMignone
+   11  git commit -m "01 de MariaClaraMignone"
+   12  git config --global user.email "mariacmignone@gmail.com"
+   13    git config --global user.name "Maria Clara Mignone"
+   14  git commit -m "01 de MariaClaraMignone"
+   15  git clone https://github.com/mariacmignone/Checkpoint-MariaCMignone.git
+   16  git clone https://github.com/mariacmignone/Checkpoint-MariaClaraMignone.git
+   17  cd Checkpoint-MariaClaraMignone
+   18  touch main.js index.html
+   19  git add main.js index.html
+   20  git commit -m "01 de Maria Clara Mignone"
+   21  git remote add origin https://github.com/mariacmignone/Checkpoint-MariaClaraMignone.git
+   22  git push -u origin main
+   23  099873729Cel
+   24  git push -u origin main
+   25  touch main.js index.html
+   26  git add main.js index.html
+   27  git commit -m "02 de Maria Clara Mignone"
+   28  git push origin main
+   29  git checkout -b feature
+   30  mkdir Hardware Software SeguridadInformatica
+   31  touch Hardware/resumen.txt Software/resumen.txt SeguridadInformatica/resumen.txt
+   32  git add .
+   33  git commit -m "03 de Maria Clara Mignone"
+   34  git push origin feature
+   35  git checkout main
+   36  git mv main.js resumenHardware.txt 
+   37  git mv index.html resumenSoftware.txt
+   38  git add resumenSoftware.txt resumenHardware.txt
+   39  git commit -m "04 de Maria Clara Mignone"
+   40  git push origin main
+   41  history > comandos.txt
